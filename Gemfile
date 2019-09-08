@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.5.0'
 
 # Whenever
-gem 'whenever', :require => false
+gem 'whenever' #, :require => false
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
